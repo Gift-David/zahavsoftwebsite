@@ -28,7 +28,7 @@ export default function ServicesSection() {
             x: 0,
             y: 0,
             opacity: 1,
-            transition: isMobile? {duration: 0.6, ease: "easeOut"} : {duration: 1, ease: "easeOut"},
+            transition: isMobile? {duration: 0.6, ease: "easeOut"} as const : {duration: 1, ease: "easeOut"} as const,
         }
     } as const
 
@@ -38,7 +38,6 @@ export default function ServicesSection() {
                 <header className="section-header md:max-w-220">
                     <h4 className="header-title">WHAT WE DO</h4>
                     <h2 className="header-subtitle">Software services that help your business grow</h2>
-                    {/* <p>We combine sharp visual thinking with technical depth to builld digital products your customers won't want to leave. From branding to fuilly built  interfaces, we cover the full spectrum</p> */}
                 </header>
                 <div className="flex flex-col gap-10">
                     {
