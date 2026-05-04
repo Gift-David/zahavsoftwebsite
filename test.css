@@ -1,0 +1,664 @@
+/* Desktop - 9 */
+
+position: absolute;
+width: 1440px;
+height: 1006px;
+left: calc(50% - 1440px/2);
+top: 0px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 25.11%, rgba(0, 0, 0, 0) 41.16%, rgba(0, 0, 0, 0.41) 71.73%), url(Black Line.png), #091734;
+
+
+/* Frame 26 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px 78px;
+gap: 136px;
+
+position: absolute;
+width: 1440px;
+height: 104px;
+left: 0px;
+top: 0px;
+
+/* Blue / 500 */
+background: #091734;
+border-bottom: 0.5px solid #FFF49B;
+backdrop-filter: blur(37px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+/* Zahavsoft golden 1 */
+
+width: 118px;
+height: 39.33px;
+
+background: url(Zahavsoft golden.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 25 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 54px;
+
+width: 676px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 22 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 62px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Home */
+
+width: 62px;
+height: 24px;
+
+/* Body/Regular M 2 */
+font-family: 'Michroma';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #FFF49B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 99px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* About Us */
+
+width: 99px;
+height: 24px;
+
+/* Body/Regular M 2 */
+font-family: 'Michroma';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Grey /200 */
+color: #BFC1C6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 23 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 90px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Services */
+
+width: 90px;
+height: 24px;
+
+/* Body/Regular M 2 */
+font-family: 'Michroma';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Grey /200 */
+color: #BFC1C6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 20 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 89px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Projects */
+
+width: 89px;
+height: 24px;
+
+/* Body/Regular M 2 */
+font-family: 'Michroma';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Grey /200 */
+color: #BFC1C6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 21 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 120px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Contact Us */
+
+width: 120px;
+height: 24px;
+
+/* Body/Regular M 2 */
+font-family: 'Michroma';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Grey /200 */
+color: #BFC1C6;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+
+width: 218px;
+height: 56px;
+
+background: #FFF49B;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Start a Project */
+
+width: 154px;
+height: 24px;
+
+/* Body/Regular M 2 */
+font-family: 'Michroma';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Blue / 500 */
+color: #091734;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 56 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 169px;
+
+position: absolute;
+width: 1268px;
+height: 536px;
+left: 86px;
+top: 235px;
+
+
+
+/* Frame 55 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 572px;
+height: 518px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 54 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 572px;
+height: 430px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 527px;
+height: 346px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* We Design The Future, Not Just Interfaces */
+
+width: 527px;
+height: 346px;
+
+font-family: 'Michroma';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 86px;
+/* or 120% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 53 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 572px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* We design intuitive digital experiences for startups, businesses, and growing brands. */
+
+width: 572px;
+height: 60px;
+
+/* H4 / Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+/* or 120% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 35 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 407px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+
+width: 218px;
+height: 56px;
+
+background: #FFF49B;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Start a Project */
+
+width: 154px;
+height: 24px;
+
+/* Body/Regular M 2 */
+font-family: 'Michroma';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Blue / 500 */
+color: #091734;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 33 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+
+width: 165px;
+height: 56px;
+
+border: 1px solid #FFF49B;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Our Story */
+
+width: 101px;
+height: 24px;
+
+/* Body/Regular M 2 */
+font-family: 'Michroma';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 2 */
+
+width: 527px;
+height: 536px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 32 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 350px;
+height: 200px;
+left: 826px;
+top: 336px;
+
+background: #FFFFFF;
+border: 3px solid #FFF49B;
+border-radius: 16px;
+
+
+/* side-view-men-working-together 1 */
+
+position: absolute;
+width: 360px;
+height: 240px;
+left: -10px;
+top: -30px;
+
+background: url(side-view-men-working-together.jpg);
+
+
+/* Frame 31 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 280px;
+height: 240px;
+left: 988px;
+top: 51px;
+
+background: #FFFFFF;
+border: 2.5px solid #FFF49B;
+border-radius: 16px;
+
+
+/* african-american-couple-reviews-their-taxes-finances-home 2 */
+
+position: absolute;
+width: 375px;
+height: 250px;
+left: -54px;
+top: 0px;
+
+background: url(african-american-couple-reviews-their-taxes-finances-home.jpg);
+
+
+/* Frame 29 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 320px;
+left: 741px;
+top: 0px;
+
+border: 3px solid #FFF49B;
+border-radius: 16px;
+
+
+/* black-corporate-team-collaborates-global-investment-strategy 3 */
+
+position: absolute;
+width: 301.75px;
+height: 452.73px;
+left: -7px;
+top: -133px;
+
+background: url(black-corporate-team-collaborates-global-investment-strategy.jpg);

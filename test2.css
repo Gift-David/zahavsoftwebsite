@@ -1,0 +1,9 @@
+/* Rectangle 41 */
+
+position: absolute;
+width: 1440px;
+height: 828px;
+left: calc(50% - 1440px/2);
+top: calc(50% - 828px/2);
+
+background: rgba(9, 23, 52, 0.5);

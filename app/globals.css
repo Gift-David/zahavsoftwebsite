@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-background: #091734;
+  --color-foreground: #FFF49B;
+  --color-secondary-background: #0D2048;
+  --color-secondary-foreground: #ffffff;
+  --color-overlay: #091734;
+  --color-muted: #A0A3AA;
+  --color-placeholder: #9B9B9B;
+  --color-nav-links: #BFC1C6;
+  --font-primary: var(--font-michroma);
+  --font-secondary: var(--font-roboto);
+}
+
+@layer components {
+  body {
+    @apply bg-secondary-background;
+  }
+
+  button {
+    @apply cursor-pointer
+  }
+  .hero-bg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 25.11%, rgba(0, 0, 0, 0) 41.16%, rgba(0, 0, 0, 0.41) 71.73%), #091734;
+  }
+
+  .hero-bg-overlay {
+    @apply bg-[url('/images/hero-black-line.png')] bg-size-[130px_130px]
+  }
+
+  .primary-btn {
+    @apply flex pt-2 pb-2 pr-4 pl-4 md:pt-4 md:pr-8 md:pb-4 md:pl-8 bg-foreground text-background font-primary justify-center;
+  }
+
+  .secondary-btn {
+    @apply flex pt-4 pr-8 pb-4 pl-8 text-foreground border border-foreground justify-center font-primary;
+  }
+
+  .section-container {
+    @apply flex flex-col pr-10 pl-10 pt-25 pb-25 lg:pr-20 lg:pl-20 lg:pt-10 lg:pb-10 gap-10 md:gap-16;
+  }
+
+  .section-container-alt {
+    @apply flex pr-10 pl-10 pt-10 pb-10 lg:pr-20 lg:pl-20 lg:pt-10 lg:pb-10 gap-16 bg-secondary-background;
+  }
+
+  .section-header {
+    @apply flex flex-col gap-6 lg:gap-4 md:gap-6 justify-center items-center;
+  }
+
+  .card {
+    @apply flex flex-col bg-background pt-12 pr-6 pb-12 pl-6;
+  }
+
+  .header-title {
+    @apply font-primary text-foreground text-sm md:text-base text-center;
+  }
+
+  .header-subtitle {
+    @apply font-primary text-secondary-foreground text-xl md:text-2xl lg:text-5xl text-center;
+  }
+
+  .content-title {
+    @apply font-primary text-secondary-foreground text-base;
+  }
+
+  .content-subtitle {
+    @apply font-primary text-foreground text-xl md:text-2xl;
+  }
+
+  .content-description {
+    @apply font-secondary text-secondary-foreground text-base;
+  }
+
+  label {
+    @apply font-primary text-foreground text-sm md:text-base
+  }
+
+  input {
+    @apply font-secondary text-secondary-foreground bg-secondary-background border border-foreground p-4
+  }
+
+  input::placeholder {
+    @apply font-secondary text-placeholder text-sm md:text-base
+  }
+
+  textarea {
+    @apply bg-secondary-background p-2 border border-foreground font-secondary text-secondary-foreground text-sm md:text-base
+  }
+
+  .service-select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg width="17" height="9" viewBox="0 0 17 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.281 1.28104L8.78104 8.78104C8.71139 8.85077 8.62867 8.90609 8.53762 8.94384C8.44657 8.98158 8.34898 9.00101 8.25042 9.00101C8.15186 9.00101 8.05426 8.98158 7.96321 8.94384C7.87216 8.90609 7.78945 8.85077 7.71979 8.78104L0.219792 1.28104C0.0790615 1.14031 0 0.94944 0 0.750417C0 0.551394 0.0790615 0.360522 0.219792 0.219792C0.360523 0.0790612 0.551394 0 0.750417 0C0.94944 0 1.14031 0.0790612 1.28104 0.219792L8.25042 7.1901L15.2198 0.219792C15.2895 0.150109 15.3722 0.0948337 15.4632 0.0571218C15.5543 0.0194098 15.6519 0 15.7504 0C15.849 0 15.9465 0.0194098 16.0376 0.0571218C16.1286 0.0948337 16.2114 0.150109 16.281 0.219792C16.3507 0.289474 16.406 0.3722 16.4437 0.463245C16.4814 0.554289 16.5008 0.651871 16.5008 0.750417C16.5008 0.848963 16.4814 0.946545 16.4437 1.03759C16.406 1.12863 16.3507 1.21136 16.281 1.28104Z" fill="white"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    cursor: pointer;
+  }
+}
