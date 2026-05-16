@@ -9,7 +9,7 @@ export default function HeaderSection (prop: HeaderProps) {
         <>
             <header
                 style={{backgroundImage: `url(${prop.img})`}}
-                className={`relative section-container mt-20 lg:mt-26 bg-center h-137.5 bg-cover`}
+                className={`relative section-container mt-16 lg:mt-22 bg-center h-137.5 bg-cover`}
             >
                 <div className="flex flex-col z-1 absolute pt-55 gap-4 md:gap-6 max-w-249.75">
                     <h4 className="font-primary text-foreground text-sm md:text-base">{prop.title}</h4>

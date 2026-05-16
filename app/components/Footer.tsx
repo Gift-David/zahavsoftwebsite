@@ -71,10 +71,10 @@ export default function Footer() {
                     <div className="flex flex-col gap-4">
                         <h4 className="font-normal text-2xl text-foreground font-primary">Services</h4>
                         <ul className="flex flex-col gap-4">
-                            <Link href={'services'}>
+                            <Link href={'/services/branding'}>
                                 <li className="font-normal text-base text-secondary-foreground font-secondary">Product Branding</li>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/services/ui-ux-design'}>
                                 <li className="font-normal text-base text-secondary-foreground font-secondary">UI/UX Design</li>
                             </Link>
                             <Link href={''}>
