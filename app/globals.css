@@ -39,7 +39,7 @@
   }
 
   .section-container {
-    @apply flex flex-col pr-10 pl-10 pt-25 pb-25 lg:pr-20 lg:pl-20 lg:pt-10 lg:pb-10 gap-10 md:gap-16;
+    @apply flex flex-col pr-10 pl-10 pt-25 pb-25 lg:pr-20 lg:pl-20 lg:pt-10 lg:pb-10 gap-10 md:gap-16 scroll-mt-20;
   }
 
   .section-container-alt {

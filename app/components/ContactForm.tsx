@@ -31,7 +31,7 @@ export default function ContactForm() {
 
     return (
         <>
-            <section id="contact-form relative">
+            <section id="contact-form" className='scroll-mt-20'>
                 <div className="flex flex-col gap-10 bg-background border border-foreground pt-4 pl-2 pr-2 pb-2 md:pt-12 md:pb-12 md:pl-8 md:pr-8">
                     <h4 className="header-title text-[18px] md:text-2xl text-left">Send Us A Message</h4>
                     <form ref={formRef} action="" onSubmit={handleSubmit} className="flex flex-wrap gap-4 md:gap-8">
@@ -78,7 +78,7 @@ export default function ContactForm() {
                             <textarea name="message" id="" placeholder="Tell us what your project is about" required className="w-full"></textarea>
                         </div>
                   
-                        <button className="primary-btn w-full" type="submit" disabled={state.submitting}>Send Message</button>
+                        <button className={`primary-btn w-full ${state.submitting? "cursor-not-allowed bg-foreground/70" : ""}`} type="submit" disabled={state.submitting}>{state.submitting? "Sending..." : "Send Message"}</button>
                         <p className="font-secondary text-secondary-foreground text-sm">We respond to enquiries within 24 hours . Your information will be never shared with third parties </p>
                     </form>
                 </div>

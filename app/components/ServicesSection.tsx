@@ -34,7 +34,7 @@ export default function ServicesSection() {
 
     return (
         <>
-            <section className="section-container items-center">
+            <section id="services" className="section-container items-center scroll-mt-20">
                 <header className="section-header md:max-w-220">
                     <h4 className="header-title">WHAT WE DO</h4>
                     <h2 className="header-subtitle">Software services that help your business grow</h2>
@@ -72,7 +72,7 @@ export default function ServicesSection() {
                                     <h6 className="content-title">{service.title}</h6>
                                     <h6 className="content-subtitle">{service.subtitle}</h6>
                                     <p className="content-description">{service.description}</p>
-                                    <Link href={'/'}>
+                                    <Link href={service.url}>
                                         <button className="flex gap-2 font-secondary text-foreground items-center">
                                             Learn more
                                             <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">

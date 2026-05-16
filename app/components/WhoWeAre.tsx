@@ -5,7 +5,7 @@ export default function WhoWeAre () {
     return (
         <>
             <section className="section-container bg-background ">
-                <div className="flex flex-col lg:flex-row gap-10 lg:gap-4 items-center">
+                <div className="flex flex-col-reverse lg:flex-row gap-10 lg:gap-4 items-center">
                     <div className="flex flex-col gap-8">
                         <h4 className="header-title text-center lg:text-left">WHO WE ARE</h4>
                         <h2 className="header-subtitle text-center lg:text-left">We think in systems and dream in pixels</h2>

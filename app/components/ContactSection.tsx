@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 export default function ContactSection () {
     return (
         <>
-            <section id="contact" className="section-container relative pt-12 pb-12 flex lg:flex-row gap-12 md:gap-20 lg:gap-8">
+            <section id="contact" className="section-container relative pt-12 pb-12 flex lg:flex-row gap-12 md:gap-20 lg:gap-8 scroll-mt-20">
                     <div className="flex flex-col gap-10 lg:max-w-[40%]">
                         <div className="flex flex-col gap-6">
                             <h4 className="header-title text-left">GET IN TOUCH</h4>
