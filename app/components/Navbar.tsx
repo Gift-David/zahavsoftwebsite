@@ -27,16 +27,40 @@ export default function Navbar() {
                         </Link>
                     </div>
                     <div className={`hidden lg:flex lg:flex-row gap-5`}>
-                        {navbarlist.map((list, index) => (
-                            <Link
-                                key={index}
-                                href={list.link}
-                                className={`font-primary text-base duration-300 hover:text-foreground ${pathName === list.link? "text-foreground" : "text-nav-links"}`}
-                            >
-                                {list.name}
-                            </Link>
+                        {navbarlist.map((list, index) => {
+                            const hasSubLinks = list.subLinks && list.subLinks.length > 0;
+                            return (
+                                <div key={index} className="relative group flex justify-center">
+                                    <Link
+                                        href={list.link}
+                                        className={`font-primary text-base duration-300 z-2 group-hover:text-foreground ${pathName === list.link? "text-foreground" : "text-nav-links"}`}
+                                    >
+                                        {list.name}
+                                    </Link>
+
+                                    {
+                                        hasSubLinks && (
+                                            <div className="hidden group-hover:flex hover:flex flex-col gap-2 absolute bg-background p-3 pt-8 w-40">
+                                                {list.subLinks.map((item, index) => (
+                                                    <Link
+                                                        key={index}
+                                                        href={item.link}
+                                                        className="text-nav-links font-secondary text-base hover:text-foreground transition-colors"
+                                                    >
+                                                        {item.name}
+                                                    </Link>
+                                                ))}
+                                            </div>
+                                        )
+                                    }
+                                </div>
+                                
+                            )
                             
-                        ))}
+                        }
+                        
+                        
+                        )}
                     </div>
 
                     <div className="flex gap-10 items-center">

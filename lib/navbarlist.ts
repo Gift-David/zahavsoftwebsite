@@ -17,15 +17,15 @@ export const navbarlist = [
         subLinks: [
             {
             name: "Branding",
-            link: "/gggg",
+            link: "/services/branding",
         },
             {
             name: "UI/UX Design",
-            link: "/ffjfjf",
+            link: "/services/ui-ux-design",
         },
             {
-            name: "",
-            link: "",
+            name: "Web Development",
+            link: "/services/web-development",
         },
     ]
     },
