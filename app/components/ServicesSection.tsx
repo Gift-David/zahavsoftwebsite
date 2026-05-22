@@ -34,7 +34,7 @@ export default function ServicesSection() {
 
     return (
         <>
-            <section id="services" className="section-container items-center scroll-mt-20">
+            <section id="services" className="section-container items-center scroll-mt-20 overflow-hidden">
                 <header className="section-header md:max-w-220">
                     <h4 className="header-title">WHAT WE DO</h4>
                     <h2 className="header-subtitle">Software services that help your business grow</h2>
@@ -54,7 +54,7 @@ export default function ServicesSection() {
                                 >
                                     <Image 
                                         src={service.img}
-                                        className="border border-foreground rounded-2xl"
+                                        className="border border-foreground"
                                         alt={service.title}
                                         width={628}
                                         height={600}

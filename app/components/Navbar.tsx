@@ -31,10 +31,11 @@ export default function Navbar() {
                             <Link
                                 key={index}
                                 href={list.link}
-                                className={`font-primary text-base hover:text-foreground ${pathName === list.link? "text-foreground" : "text-nav-links"}`}
+                                className={`font-primary text-base duration-300 hover:text-foreground ${pathName === list.link? "text-foreground" : "text-nav-links"}`}
                             >
                                 {list.name}
                             </Link>
+                            
                         ))}
                     </div>
 

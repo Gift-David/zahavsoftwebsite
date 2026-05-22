@@ -24,7 +24,7 @@ export default function Offers() {
                             </div>
                             <div className="flex gap-6 flex-wrap">
                                 {branding_offers.map((offer, index) => (
-                                    <div key={index} className="card gap-8 grow min-w-[30%] lg:max-w-[50%]">
+                                    <div key={index} className="card gap-8 grow transition-transform duration-300 hover:-translate-y-2 min-w-[30%] lg:max-w-[50%]">
                                         <div className="border-b border-b-foreground pb-4">
                                             <h6 className="font-primary lg:text-2xl text-secondary-foreground">{offer.title}</h6>
                                         </div>
@@ -55,7 +55,7 @@ export default function Offers() {
                             </div>
                             <div className="flex gap-6 flex-wrap">
                                 {design_offers.map((offer, index) => (
-                                    <div key={index} className="card gap-8 grow min-w-[30%] lg:max-w-[50%] ">
+                                    <div key={index} className="card gap-8 grow transition-transform duration-300 hover:-translate-y-2 min-w-[30%] lg:max-w-[50%] ">
                                         <div className="border-b border-b-foreground pb-4">
                                             <h6 className="font-primary lg:text-2xl text-secondary-foreground">{offer.title}</h6>
                                         </div>
@@ -86,7 +86,7 @@ export default function Offers() {
                             </div>
                             <div className="flex gap-6 flex-wrap">
                                 {webdev_offers.map((offer, index) => (
-                                    <div key={index} className="card gap-8 grow min-w-full lg:min-w-[30%] lg:max-w-[30%] ">
+                                    <div key={index} className="card gap-8 grow transition-transform duration-300 hover:-translate-y-2 min-w-full lg:min-w-[30%] lg:max-w-[30%] ">
                                         <div className="border-b border-b-foreground pb-4">
                                             <h6 className="font-primary lg:text-2xl text-secondary-foreground">{offer.title}</h6>
                                         </div>
@@ -117,7 +117,7 @@ export default function Offers() {
                             </div>
                             <div className="flex gap-6 flex-wrap">
                                 {mobiledev_offers.map((offer, index) => (
-                                    <div key={index} className="card gap-8 grow min-w-[30%] lg:max-w-[50%]">
+                                    <div key={index} className="card gap-8 grow transition-transform duration-300 hover:-translate-y-2 min-w-[30%] lg:max-w-[50%]">
                                         <div className="border-b border-b-foreground pb-4">
                                             <h6 className="font-primary lg:text-2xl text-secondary-foreground">{offer.title}</h6>
                                         </div>

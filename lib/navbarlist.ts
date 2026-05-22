@@ -14,6 +14,20 @@ export const navbarlist = [
         id: 3,
         name: 'Services',
         link: '/services',
+        subLinks: [
+            {
+            name: "Branding",
+            link: "/gggg",
+        },
+            {
+            name: "UI/UX Design",
+            link: "/ffjfjf",
+        },
+            {
+            name: "",
+            link: "",
+        },
+    ]
     },
     {
         id: 4,

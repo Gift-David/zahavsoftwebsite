@@ -38,12 +38,13 @@ export default async function ServiceDetailPage ({params}: PageProps) {
                     <div className="flex gap-6 flex-wrap">
                         {
                             service.services.servicesCard.map((item, index) => (
-                                <div key={index} className="flex flex-col bg-background border border-foreground gap-4 grow min-w-[30%] lg:max-w-[48%]">
-                                    <div>
+                                <div key={index} className="flex flex-col bg-background border-[0.5px] transition-transform duration-300 hover:-translate-y-2 hover:border border-foreground/50 hover:border-foreground gap-4 grow min-w-[30%] lg:max-w-[48%]">
+                                    <div className="w-full">
                                         <Image 
                                             src={item.img}
                                             width={628}
                                             height={220}
+                                            className="w-full"
                                             alt={item.title}
                                         />
                                     </div>
@@ -65,7 +66,7 @@ export default async function ServiceDetailPage ({params}: PageProps) {
                 <div className="flex md:gap-x-1 gap-y-4 flex-wrap">
                     {
                         service.process.processCard.map((item, index) => (
-                            <div key={index} className="flex flex-col md:flex-row bg-secondary-background hover:bg-[#1C1C1C] border border-foreground gap-4 p-4 grow min-w-[30%] lg:max-w-[48%]">
+                            <div key={index} className="flex flex-col md:flex-row bg-secondary-background transition-transform duration-300 hover:-translate-y-2 border border-foreground gap-4 p-4 grow min-w-[30%] lg:max-w-[48%]">
                                     <div>
                                         <p className="text-base font-primary text-foreground">{item.id}</p>
                                     </div>

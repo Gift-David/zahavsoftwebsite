@@ -13,7 +13,7 @@ export default function CoreValuesSection () {
                     <div className="flex gap-6 md:gap-1 flex-wrap">
                         {
                             corevalues.map((value, index) => (
-                                <div key={index} className="flex flex-col max-w-auto gap-4 border border-foreground p-4 bg-secondary-background hover:bg-[#1C1C1C] flex-wrap shrink grow md:max-w-[30%] lg:max-w-[19.5%]">
+                                <div key={index} className="flex flex-col max-w-auto gap-4 border border-foreground p-4 bg-secondary-background duration-300 hover:bg-[#1C1C1C] flex-wrap shrink grow md:max-w-[30%] lg:max-w-[19.5%]">
                                     <Image 
                                         src={value.icon}
                                         width={20}
