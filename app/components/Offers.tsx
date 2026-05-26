@@ -2,10 +2,10 @@ import { offerlist } from "@/lib/offerlists"
 import Link from "next/link"
 
 export default function Offers() {
-    const branding_offers = offerlist.filter(offer => offer.category=== 'branding')
-    const design_offers = offerlist.filter(offer => offer.category=== 'design')
-    const webdev_offers = offerlist.filter(offer => offer.category=== 'webdev')
-    const mobiledev_offers = offerlist.filter(offer => offer.category=== 'mobiledev')
+    const branding_offers = offerlist.filter(offer => offer.category === 'branding')
+    const design_offers = offerlist.filter(offer => offer.category === 'design')
+    const webdev_offers = offerlist.filter(offer => offer.category === 'webdev')
+    const mobiledev_offers = offerlist.filter(offer => offer.category === 'mobiledev')
     return (
         <>
             <section id="offers" className="section-container flex-col justify-center lg:h-[2590]">
@@ -18,8 +18,8 @@ export default function Offers() {
                     <div className="flex flex-col gap-13.5">
 
                         <div className="flex flex-col gap-10">
-                            <div className="flex gap-1 items-center">
-                                <h6 className="primary-btn min-w-62 pl-1 pr-1 md:min-w-77">PRODUCT BRANDING</h6>
+                            <div className="flex gap-0 items-center">
+                                <h6 className="min-w-62 flex font-primary text-foreground md:min-w-65">PRODUCT BRANDING</h6>
                                 <p className="border-[0.5px] border-foreground h-0 w-full"></p>
                             </div>
                             <div className="flex gap-6 flex-wrap">
@@ -40,7 +40,7 @@ export default function Offers() {
                                                 </li>
                                             ))}
                                         </ul>
-                                        <Link href={'/contact'}>
+                                        <Link href={'/contact#contact-form'}>
                                             <button className="secondary-btn w-full">Get Started</button>
                                         </Link>
                                     </div>
@@ -50,7 +50,7 @@ export default function Offers() {
                         
                         <div className="flex flex-col gap-10">
                             <div className="flex gap-1 items-center">
-                                <h6 className="primary-btn min-w-57">UI/UX DESIGN</h6>
+                                <h6 className="flex font-primary text-foreground min-w-40">UI/UX DESIGN</h6>
                                 <p className="border-[0.5px] border-foreground h-0 w-full"></p>
                             </div>
                             <div className="flex gap-6 flex-wrap">
@@ -71,7 +71,7 @@ export default function Offers() {
                                             ))}
                                         </ul>
 
-                                        <Link href={'/contact'}>
+                                        <Link href={'/contact#contact-form'}>
                                             <button className="secondary-btn w-full">Get Started</button>
                                         </Link>
                                     </div>
@@ -81,7 +81,7 @@ export default function Offers() {
                         
                         <div className="flex flex-col gap-10">
                             <div className="flex gap-1 items-center">
-                                <h6 className="primary-btn min-w-62 pr-1 pl-1 md:min-w-112.25">WEB AND MOBILE DEVELOPMENT</h6>
+                                <h6 className="flex font-primary text-foreground min-w-62 pr-1 pl-1 md:min-w-100">WEB AND MOBILE DEVELOPMENT</h6>
                                 <p className="border-[0.5px] border-foreground h-0 w-full"></p>
                             </div>
                             <div className="flex gap-6 flex-wrap">
@@ -102,7 +102,7 @@ export default function Offers() {
                                             ))}
                                         </ul>
 
-                                        <Link href={'/contact'}>
+                                        <Link href={'/contact#contact-form'}>
                                             <button className="secondary-btn w-full">Get Started</button>
                                         </Link>
                                     </div>
@@ -112,7 +112,7 @@ export default function Offers() {
                         
                         <div className="flex flex-col gap-10">
                             <div className="flex gap-1 items-center">
-                                <h6 className="primary-btn md:min-w-[384px]">MOBILE APP DEVELOPMENT</h6>
+                                <h6 className="flex font-primary text-foreground md:min-w-82.5">MOBILE APP DEVELOPMENT</h6>
                                 <p className="border-[0.5px] border-foreground h-0 w-full"></p>
                             </div>
                             <div className="flex gap-6 flex-wrap">
@@ -133,7 +133,7 @@ export default function Offers() {
                                             ))}
                                         </ul>
 
-                                        <Link href={'/contact'}>
+                                        <Link href={'/contact#contact-form'}>
                                             <button className="secondary-btn w-full">Get Started</button>
                                         </Link>
                                     </div>

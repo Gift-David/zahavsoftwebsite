@@ -35,7 +35,7 @@
   }
 
   .secondary-btn {
-    @apply flex pt-4 pr-8 pb-4 pl-8 text-foreground border border-foreground justify-center font-primary;
+    @apply flex pt-4 pr-8 pb-4 pl-8 text-foreground border border-foreground justify-center font-primary hover:bg-foreground hover:text-background duration-300;
   }
 
   .section-container {

@@ -57,13 +57,15 @@ export default function ContactForm() {
 
                         <div className="flex flex-col gap-2 min-w-full md:min-w-full">
                             <label htmlFor="service">Service You Are Interested In</label>
-                            <select name="service" id="" className=" service-select w-full font-secondary text-placeholder p-4 border border-foreground" required>
-                                <option value="" disabled selected className='text-placeholder'>Choose a Service</option>
+                            <select name="service" id="" className=" service-select w-full font-secondary text-secondary-foreground p-4 border border-foreground" required>
+                                <option value="" disabled selected className='text-placeholder bg-secondary-background'>Choose a Service</option>
                                 {
                                     service_option.map((option, index) => (
-                                        <option key={index} value={option} className="text-secondary-foreground text-base bg-secondary-background">{option}</option>
+                                        <option key={index} value={option} className=" text-base bg-secondary-background">{option}</option>
                                     ))
                                 }
+
+                                <option value="other" className=" text-base bg-secondary-background">Not sure yet, lets talk</option>
                                 
                             </select>
                         </div>
