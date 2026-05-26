@@ -14,7 +14,7 @@ export default function TeamSection () {
                     <div className="flex flex-wrap gap-8 lg:gap-6">
                         {
                             team_members.map((member, index) => (
-                                <div key={index} className="card p-0 md:max-w-[48%] lg:max-w-[30%]">
+                                <div key={index} className="card p-0 md:max-w-[45%] lg:max-w-[30%]">
                                     <div className="relative">
                                         <Image 
                                             src={member.image}
