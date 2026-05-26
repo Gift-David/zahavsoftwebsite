@@ -232,47 +232,107 @@ export const ServiceDetails:ServiceDetailsProp[] = [
 },
 
     {
-    slug: "",
+    slug: "web-development",
     header: {
-        title: "",
-        subtitle: "",
-        img: "",
+        title: "WEB & APP DEVELOPMENT",
+        subtitle: "Designed to Impress. Built to perform",
+        img: "/images/web-development-header.png",
     },
     offer: {
         des: "",
         btnTxt: "",
     },
     services: {
-        headerTitle: "",
-        headerSubtitle: "",
+        headerTitle: "DEVELOPMENT SERVICES",
+        headerSubtitle: "Four types of build. One standard of excellence",
         servicesCard: [
             {
-            img: "",
-            title: "",
-            description: "",
+            img: "/images/bussiness-web.png",
+            title: "Business Website Development",
+            description: "Make your business stand out with a fully custom-built website engineered around your goals including custom design, development, a year of hosting and a custom domain.",
+        },
+            {
+            img: "/images/mobile-app.png",
+            title: "Mobile App Development",
+            description: "We develop cross-platform mobile applications. From discovery and design to development, testing and deployment, we handle the entire lifecycle so you can focus on your users and your business",
+        },
+            {
+            img: "/images/ecommerce-app.png",
+            title: "E-Commerce Software Development",
+            description: "Get a custom-built online store for your business. We build E-Commerce platforms that make buying feel effortless because friction kills revenue. Secure payments, fast loading, and built to convert at every step",
+        },
+            {
+            img: "/images/saas-app.png",
+            title: "SaaS Development",
+            description: "Turn your ideas into a digital product. From product research, custom design and full development, We take your concept from whiteboard to a working software built to scale from day one ready for real users from launch day",
+        },
+            {
+            img: "/images/portfolio.png",
+            title: "Professional Portfolio Website",
+            description: "You work is exceptional. Your website should say so before you do. We build portfolio sites that position you as the obvious choice with custom design, full development, hosting and you own domain included",
         },
         ]
     },
     process: {
-        headerTile: "",
-        headerSubtitle: "",
+        headerTile: "OUR DEVELOPMENT PROCESS",
+        headerSubtitle: "A structured process that takes your idea from concept to live product",
         processCard: [
             {
-            id: "",
-            title: "",
-            description: "",
+            id: "01",
+            title: "Discovery and Scoping",
+            description: "We start by understanding your business goals, target users, technical requirements and timeline. We ask the questions most developers skip because building the right matters more than building fast",
+        },
+            {
+            id: "02",
+            title: "Design and Prototyping",
+            description: "Before any code is written, we design the UI and validate the user experience with an interactive prototype. You see and approve exactly what will be built. Nothing goes into development without your sign-off.",
+        },
+            {
+            id: "03",
+            title: "Development",
+            description: "Our engineers build your product with clean, well-documented code with the frontend and backend working in sync. We use modern frameworks and follow industry best practices for security and performance",
+        },
+            {
+            id: "04",
+            title: "Quality Assurance and Testing",
+            description: "Every feature is tested thoroughly before it reaches you across devices, browsers, and edge cases. We break things intentionally in testing so your users never experience them breaking in production.",
+        },
+            {
+            id: "05",
+            title: "Deploymnet and Go Live",
+            description: "We handle the full deployment: server setup, domain configuration, SSL certificates, and performance checks. Your product goes live smoothly, with zero downtime and everything working exactly as designed.",
+        },
+            {
+            id: "06",
+            title: "Handover and Ongoing Support",
+            description: "You receive full ownership of the codebase, hosting credentials, and a walkthrough of how to manage your product. We stay available post-launch to resolve any issues and ensure everything runs as it should.",
         },
         ]
     },
     offers: {
-        headerTile: "",
-        headerSubtitle: "",
-        sectionImg: "",
+        headerTile: "WHAT YOU WALK AWAY WITH",
+        headerSubtitle: "Everything handed over. Nothing left behind",
+        sectionImg: "/images/web-offer-section.png",
         item: [
             {
-            icon: "",
-            title: "",
-            description: "",
+            icon: "/icon/offer-icon-1.png",
+            title: "Fully Functional Website or App",
+            description: "A live, tested, production-ready product deployed and accessible to your users from day one, with no loose ends.",
+        },
+            {
+            icon: "/icon/offer-icon-2.png",
+            title: "Custom Domain and One Year Hosting",
+            description: "Your own domain name and a full year of reliable hosting included in website packages so you're live and independent from the moment we hand over.",
+        },
+            {
+            icon: "/icon/offer-icon-3.png",
+            title: "Interactive Prototyping",
+            description: "Every line of code belongs to you. We hand over the complete source code, credentials, and documentation",
+        },
+            {
+            icon: "/icon/offer-icon-4.png",
+            title: "Admin Access and CMS Training",
+            description: "Full admin access to your product plus a walkthrough of how to manage content, update pages, and handle basic operations.",
         },
         ],
     }

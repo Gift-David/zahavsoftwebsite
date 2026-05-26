@@ -104,6 +104,7 @@ export default async function ServiceDetailPage ({params}: PageProps) {
                                                 width={25}
                                                 height={25}
                                                 alt={item.title}
+                                                className="md:mt-1"
                                             />
                                         </div>
 

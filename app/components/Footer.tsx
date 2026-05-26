@@ -77,7 +77,7 @@ export default function Footer() {
                             <Link href={'/services/ui-ux-design'}>
                                 <li className="font-normal text-base text-secondary-foreground font-secondary">UI/UX Design</li>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/services/web-development'}>
                                 <li className="font-normal text-base text-secondary-foreground font-secondary">Web and App Development</li>
                             </Link>
                         </ul>
