@@ -98,7 +98,6 @@ export default function Navbar() {
                     </div>
                 </div>
 
-
                 {/* Nav Menu for Mobile */}
                 <div className={`lg:hidden gap-5 justify-center self-center pt-10 ${isOpen? "flex flex-col" : "hidden"}`}>
                     {navbarlist.map((list, index) => {
