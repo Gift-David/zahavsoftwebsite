@@ -140,7 +140,7 @@ export default function Navbar() {
 
                         <Link
                             href={"/contact"}
-                            className="md:hidden w-full pt-6"
+                            className="flex md:hidden w-full pt-6 justify-center"
                         >
                             <button className="primary-btn">Start a Project</button>
                         </Link>

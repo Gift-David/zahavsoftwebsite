@@ -9,7 +9,7 @@ export default function ServicesSection() {
     const [isMobile, setIsMobile] = useState(false)
 
     useEffect(() => {
-        const checkMobile = () => setIsMobile(window.innerWidth < 980)
+        const checkMobile = () => setIsMobile(window.innerWidth < 1024)
 
         checkMobile()
 
