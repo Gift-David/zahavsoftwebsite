@@ -32,7 +32,7 @@ export default function ContactForm() {
     return (
         <>
             <section id="contact-form" className='scroll-mt-20'>
-                <div className="flex flex-col gap-10 bg-background border border-foreground pt-4 pl-2 pr-2 pb-2 md:pt-12 md:pb-12 md:pl-8 md:pr-8">
+                <div className="flex flex-col gap-10 bg-background border border-foreground pt-4 pl-4 pr-4 pb-2 md:pt-12 md:pb-12 md:pl-8 md:pr-8">
                     <h4 className="header-title text-[18px] md:text-2xl text-left">Send Us A Message</h4>
                     <form ref={formRef} action="" onSubmit={handleSubmit} className="flex flex-wrap gap-4 md:gap-8">
                         <div className="flex flex-col gap-2 min-w-full md:min-w-[47%]">
@@ -77,7 +77,7 @@ export default function ContactForm() {
                         
                         <div className="flex flex-col gap-2 min-w-full md:min-w-full">
                             <label htmlFor="">Tell Us About Your Project</label>
-                            <textarea name="message" id="" placeholder="Tell us what your project is about" required className="w-full"></textarea>
+                            <textarea name="message" id="" placeholder="Tell us what your project is about" required className="w-full h-28"></textarea>
                         </div>
                   
                         <button className={`primary-btn w-full ${state.submitting? "cursor-not-allowed bg-foreground/70" : ""}`} type="submit" disabled={state.submitting}>{state.submitting? "Sending..." : "Send Message"}</button>

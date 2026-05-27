@@ -14,7 +14,7 @@ export default function Navbar() {
     
     return (
         <>
-            <nav className="flex flex-col bg-background w-full fixed top-0 left-0 pr-4 pl-4 lg:pr-20 lg:pl-20 pt-3 pb-3 md:pt-4 md:pb-4 z-10 border-b-[0.5] border-foreground">
+            <nav className="flex flex-col bg-background w-full fixed top-0 left-0 pr-4 pl-4 md:pr-8 md:pl-8 lg:pr-20 lg:pl-20 pt-3 pb-3 md:pt-4 md:pb-4 z-10 border-b-[0.5] border-foreground">
                 <div className="flex flex-row justify-between items-center">
                     <div>
                         <Link href={'/'}>
