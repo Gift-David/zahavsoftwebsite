@@ -14,7 +14,7 @@ export default function Navbar() {
     
     return (
         <>
-            <nav className="flex flex-col bg-background w-full fixed top-0 left-0 pr-10 pl-10 lg:pr-20 lg:pl-20 pt-3 pb-3 md:pt-4 md:pb-4 z-10 border-b-[0.5] border-foreground">
+            <nav className="flex flex-col bg-background w-full fixed top-0 left-0 pr-4 pl-4 lg:pr-20 lg:pl-20 pt-3 pb-3 md:pt-4 md:pb-4 z-10 border-b-[0.5] border-foreground">
                 <div className="flex flex-row justify-between items-center">
                     <div>
                         <Link href={'/'}>
@@ -99,11 +99,11 @@ export default function Navbar() {
                 </div>
 
                 {/* Nav Menu for Mobile */}
-                <div className={`lg:hidden gap-5 justify-center self-center pt-10 ${isOpen? "flex flex-col" : "hidden"}`}>
+                <div className={`lg:hidden gap-5 pt-10 ${isOpen? "flex flex-col" : "hidden"}`}>
                     {navbarlist.map((list, index) => {
                             const hasSubLinks = list.subLinks && list.subLinks.length > 0;
                             return (
-                                <div key={index} className="flex group justify-center flex-wrap gap-1">
+                                <div key={index} className="flex group flex-wrap gap-1">
                                     {hasSubLinks? (
                                         <button
                                         className={`text-center font-primary text-base hover:text-foreground ${pathName === list.link? "text-foreground" : "text-nav-links"}`}
@@ -139,7 +139,7 @@ export default function Navbar() {
                                                     <Link
                                                         key={index}
                                                         href={item.link}
-                                                        className="text-secondary-foreground text-center font-secondary p-3 text-base hover:bg-foreground hover:text-background w-full transition-colors"
+                                                        className="text-secondary-foreground font-secondary p-3 pl-6 text-base hover:bg-foreground hover:text-background w-full transition-colors"
                                                     >
                                                         {item.name}
                                                     </Link>
@@ -157,7 +157,7 @@ export default function Navbar() {
 
                         <Link
                             href={"/contact"}
-                            className="flex md:hidden w-full pt-6 justify-center"
+                            className="flex md:hidden w-full pt-6"
                         >
                             <button className="primary-btn">Start a Project</button>
                         </Link>

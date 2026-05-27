@@ -6,7 +6,7 @@ export default function Footer() {
     
     return (
         <>
-            <footer id="footer" className="flex flex-col flex-wrap gap-10 pt-15 pl-10 pr-10 lg:pl-20 lg:pr-20 pb-15 bg-background">
+            <footer id="footer" className="flex flex-col flex-wrap gap-10 pt-15 pl-4 pr-4 lg:pl-20 lg:pr-20 pb-15 bg-background">
                 <div className="flex flex-wrap gap-8 border-b border-b-muted justify-between pb-10">
                     <div className="flex flex-col gap-6 lg:max-w-88">
                         <Link href={'/'}>

@@ -7,7 +7,7 @@ export default function Hero() {
       <>
         <section className="flex flex-col hero-bg ">
             <Navbar />
-            <div className=" relative flex flex-col-reverse lg:flex-row gap-14.75 justify-center items-center pt-25 pr-10 pl-10 pb-10 lg:pr-20 lg:pl-20 lg:pb-10">
+            <div className=" relative flex flex-col-reverse lg:flex-row gap-14.75 justify-center items-center pt-25 pr-4 pl-4 pb-10 lg:pr-20 lg:pl-20 lg:pb-10">
                 <div className="absolute hero-bg-overlay z-0 inset-0 opacity-20"></div>
                 <div className="flex flex-col gap-6 md:gap-10 justify-center md:justify-start lg:max-w-[50%] z-2">
                     <h1 className="font-primary text-secondary-foreground text-4xl md:text-6xl lg:text-7xl">We Build The <span className="text-foreground">Future</span>, Not Just Interfaces</h1>
