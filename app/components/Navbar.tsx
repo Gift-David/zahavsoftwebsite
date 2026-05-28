@@ -139,7 +139,7 @@ export default function Navbar() {
                                                     <Link
                                                         key={index}
                                                         href={item.link}
-                                                        className="text-secondary-foreground font-secondary p-3 pl-6 text-base hover:bg-foreground hover:text-background w-full transition-colors"
+                                                        className="text-secondary-foreground font-secondary pt-3 pb-3 text-base hover:bg-foreground hover:text-background w-full transition-colors"
                                                     >
                                                         {item.name}
                                                     </Link>
