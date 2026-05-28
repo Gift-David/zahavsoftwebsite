@@ -8,7 +8,7 @@ export default function Offers() {
     const mobiledev_offers = offerlist.filter(offer => offer.category === 'mobiledev')
     return (
         <>
-            <section id="offers" className="section-container flex-col justify-center lg:h-[2590]">
+            <section id="offers" className="section-container pt-0 flex-col justify-center lg:h-[2590]">
                 <div className="flex flex-col border-b border-foreground pb-16 justify-center gap-10">
                     <div className="section-header justify-center items-center max-w-153.5 self-center">
                         <h4 className="header-title">ALL PACKAGES AT A GLANCE</h4>

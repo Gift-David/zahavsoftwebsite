@@ -24,7 +24,7 @@ export default function Hero() {
 
                 <div className="z-2">
                     <Image 
-                        src="/images/hero-img.png"
+                        src="/images/heroImg.png"
                         className=""
                         alt="Hero Image"
                         width={633}

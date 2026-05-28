@@ -1,7 +1,7 @@
 export const faqlist = [
     {
         question: 'How long does a typical project take',
-        answer: '',
+        answer: 'It depends on the scope. A brand identity project typically takes 2-4 weejk. A full website design and build can run 6 - 12 weeks. We always define timelines clearly during onboarding so there are no surprises',
     },
     {
         question: 'Do you work with early - stage startup?',

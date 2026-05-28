@@ -16,7 +16,7 @@
 
 @layer components {
   body {
-    @apply bg-secondary-background;
+    @apply bg-secondary-background overflow-hidden;
   }
 
   button {
