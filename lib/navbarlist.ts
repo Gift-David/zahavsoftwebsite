@@ -16,7 +16,7 @@ export const navbarlist = [
         link: '/services',
         subLinks: [
             {
-            name: "Branding",
+            name: "Product Branding",
             link: "/services/branding",
         },
             {
