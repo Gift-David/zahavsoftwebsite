@@ -14,7 +14,10 @@ export const metadata: Metadata = {
     siteName: "Zahavsoft",
     // images: [{ url: "https://example.com/og.png" }]
 },
-  keywords: ["website", "software company"]
+  keywords: ["website", "software company"],
+  verification: {
+    google: "5aGSTCN1cKnZBYnrnpRZM8waerjxSSYkJtuGDR10sv4",
+  },
 };
 
 export default function RootLayout({
