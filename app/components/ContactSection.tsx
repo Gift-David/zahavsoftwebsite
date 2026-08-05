@@ -19,7 +19,7 @@ export default function ContactSection () {
                                 </svg>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="font-primary text-foreground text-base">Email</h6>
-                                    <a href="mailto:zahavsoft@gmail.com" className="font-secondary text-secondary-foreground text-base">zahavsoft@gmail.com</a>
+                                    <a href="mailto:hello@zahavsoft.com" className="font-secondary text-secondary-foreground text-base">hello@zahavsoft.com</a>
                                 </div>
 
                             </div>

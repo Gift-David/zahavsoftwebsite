@@ -88,8 +88,8 @@ export default function Footer() {
                             <a href="tel:+2348106921715" target="_blank">
                                 <li className="font-normal text-base text-secondary-foreground font-secondary">+2348106921715</li>
                             </a>
-                            <a href="mailto:zahavsoft@gmail.com" target="_blank">
-                                <li className="font-normal text-base text-secondary-foreground font-secondary">zahavsoft@gmail.com</li>
+                            <a href="mailto:hello@zahavsoft.com" target="_blank">
+                                <li className="font-normal text-base text-secondary-foreground font-secondary">hello@zahavsoft.com</li>
                             </a>
                         </ul>
                     </div>
