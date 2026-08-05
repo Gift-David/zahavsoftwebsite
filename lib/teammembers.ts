@@ -3,7 +3,7 @@ export const team_members = [
         image: '/images/david.png',
         name: 'David Gift',
         position: 'Founder & Full stack Developer',
-        description: 'David leads the studio with a rare combination of business vision and deep technical skill. He sets the direction, makes the hard calls, and still writes production code because great founders stay close to the craft.',
+        description: 'David leads the team with a rare combination of business vision and deep technical skill. He sets the direction, makes the hard calls, and still writes production code because great founders stay close to the craft.',
     },
     
     {

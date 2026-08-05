@@ -65,12 +65,12 @@ export const ServiceDetails:ServiceDetailsProp[] = [
             {
             img: "/images/brand-identity.png",
             title: "Brand Identity Design",
-            description: "A complete visual system: colour palette, typography, iconography, patterns, and brand guidelines that ensures that your brand looks consistent and intentional across every touchpoint",
+            description: "A complete visual system: colour palette, typography, iconography, patterns, and brand guidelines that ensures that your brand looks consistent and intentional across every touchpoint.",
         },
             {
             img: "/images/branding-sm-design.png",
             title: "Social Media Designs",
-            description: "Scroll stopping social media assets and profile setup across your key platforms. Branded templates that your team can use to stay visually consistent long after the project wraps",
+            description: "Scroll stopping social media assets and profile setup across your key platforms. Branded templates that your team can use to stay visually consistent long after the project wraps.",
         },
         ]
     },
@@ -147,12 +147,12 @@ export const ServiceDetails:ServiceDetailsProp[] = [
             {
             img: "/images/web-design.png",
             title: "Website Design (UI/UX)",
-            description: "Your website keeps your business running 24/7. We design websites that builds trust on the first scroll, guide visitors with clarity, and convert browsers into paying clients",
+            description: "Your website keeps your business running 24/7. We design websites that builds trust on the first scroll, guide visitors with clarity, and convert browsers into paying clients.",
         },
             {
             img: "/images/mobile-design.png",
             title: "Mobile App Design (UI/UX)",
-            description: "People make snap decisions on their phones . We design mobile experiences  that are fast  to grasp, impossible to put down, and optimised for the specific platform your users are on",
+            description: "People make snap decisions on their phones. We design mobile experiences that are fast to grasp, impossible to put down, and optimised for the specific platform your users are on.",
         },
             {
             img: "/images/prototyping.png",
@@ -205,22 +205,22 @@ export const ServiceDetails:ServiceDetailsProp[] = [
             {
             icon: "/icon/offer-icon-1.png",
             title: "User research Report",
-            description: "Documented findings from user research, personas, and journey maps which is the foundation every design decision is built on",
+            description: "Documented findings from user research, personas, and journey maps which is the foundation every design decision is built on.",
         },
             {
             icon: "/icon/offer-icon-2.png",
             title: "Wireframes",
-            description: "Low-fidelity wireframes of all screens and flows which makes it fast to iterate, aligned before visual design begins",
+            description: "Low-fidelity wireframes of all screens and flows which makes it fast to iterate, aligned before visual design begins.",
         },
             {
             icon: "/icon/offer-icon-3.png",
             title: "High-Fidelity Figma Designs",
-            description: "Polished pixel-perfect UI screens for every page and state complete with your design system and component library",
+            description: "Polished pixel-perfect UI screens for every page and state complete with your design system and component library.",
         },
             {
             icon: "/icon/offer-icon-4.png",
             title: "Interactive Prototyping",
-            description: "A clickable prototype you can share with your stakeholders, test with users and use to validate the experience before development",
+            description: "A clickable prototype you can share with your stakeholders, test with users and use to validate the experience before development.",
         },
             {
             icon: "/icon/offer-icon-5.png",
@@ -254,22 +254,22 @@ export const ServiceDetails:ServiceDetailsProp[] = [
             {
             img: "/images/mobile-app.png",
             title: "Mobile App Development",
-            description: "We develop cross-platform mobile applications. From discovery and design to development, testing and deployment, we handle the entire lifecycle so you can focus on your users and your business",
+            description: "We develop cross-platform mobile applications. From discovery and design to development, testing and deployment, we handle the entire lifecycle so you can focus on your users and your business.",
         },
             {
             img: "/images/ecommerce-app.png",
             title: "E-Commerce Software Development",
-            description: "Get a custom-built online store for your business. We build E-Commerce platforms that make buying feel effortless because friction kills revenue. Secure payments, fast loading, and built to convert at every step",
+            description: "Get a custom-built online store for your business. We build E-Commerce platforms that make buying feel effortless because friction kills revenue. Secure payments, fast loading, and built to convert at every step.",
         },
             {
             img: "/images/saas-app.png",
             title: "SaaS Development",
-            description: "Turn your ideas into a digital product. From product research, custom design and full development, We take your concept from whiteboard to a working software built to scale from day one ready for real users from launch day",
+            description: "Turn your ideas into a digital product. From product research, custom design and full development, We take your concept from whiteboard to a working software built to scale from day one ready for real users from launch day.",
         },
             {
             img: "/images/portfolio.png",
             title: "Professional Portfolio Website",
-            description: "You work is exceptional. Your website should say so before you do. We build portfolio sites that position you as the obvious choice with custom design, full development, hosting and you own domain included",
+            description: "You work is exceptional. Your website should say so before you do. We build portfolio sites that position you as the obvious choice with custom design, full development, hosting and your own domain included.",
         },
         ]
     },
@@ -280,7 +280,7 @@ export const ServiceDetails:ServiceDetailsProp[] = [
             {
             id: "01",
             title: "Discovery and Scoping",
-            description: "We start by understanding your business goals, target users, technical requirements and timeline. We ask the questions most developers skip because building the right matters more than building fast",
+            description: "We start by understanding your business goals, target users, technical requirements and timeline. We ask the questions most developers skip because building the right matters more than building fast.",
         },
             {
             id: "02",
@@ -290,7 +290,7 @@ export const ServiceDetails:ServiceDetailsProp[] = [
             {
             id: "03",
             title: "Development",
-            description: "Our engineers build your product with clean, well-documented code with the frontend and backend working in sync. We use modern frameworks and follow industry best practices for security and performance",
+            description: "Our engineers build your product with clean, well-documented code with the frontend and backend working in sync. We use modern frameworks and follow industry best practices for security and performance.",
         },
             {
             id: "04",
@@ -327,7 +327,7 @@ export const ServiceDetails:ServiceDetailsProp[] = [
             {
             icon: "/icon/offer-icon-3.png",
             title: "Interactive Prototyping",
-            description: "Every line of code belongs to you. We hand over the complete source code, credentials, and documentation",
+            description: "Every line of code belongs to you. We hand over the complete source code, credentials, and documentation.",
         },
             {
             icon: "/icon/offer-icon-4.png",
