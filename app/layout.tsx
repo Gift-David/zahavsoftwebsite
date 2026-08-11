@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "Zahavsoft",
     // images: [{ url: "https://example.com/og.png" }]
 },
-  keywords: ["website", "software company"],
+  keywords: ["website", "software company", "product design", "online visibility", "mobile app", "web design", "web designer", "web developer", "creative designer", "ecommerce", "tech", "business growth", "marketing", "entrepreneurship"],
   verification: {
     google: "5aGSTCN1cKnZBYnrnpRZM8waerjxSSYkJtuGDR10sv4",
   },

@@ -18,7 +18,7 @@ export default function ProjectSection () {
             <section id="projects" className="section-container flex flex-col justify-center items-center gap-10 pt-50 pb-20  text-center">
                     <div className="flex flex-col gap-10 max-w-184.5 justify-center text-center">
                         <h1 className="font-primary text-secondary-foreground text-center text-4xl md:text-6xl lg:text-7xl">Something bold is being built</h1>
-                        <h4 className="font-secondary text-secondary-foreground text-center text-xl md:text-2xl">Be the first to know when we launch.  Drop your email and we'll reach out the moment it is ready</h4>
+                        <h4 className="font-secondary text-secondary-foreground text-center text-xl md:text-2xl">Be the first to know when we launch. Drop your email and we'll reach out the moment it is ready.</h4>
                     </div>
 
                     <div className="flex flex-col gap-2 justify-center w-full items-center">

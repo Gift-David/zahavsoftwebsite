@@ -8,7 +8,8 @@ import CoreValuesSection from "../components/CoreValues";
 import TeamSection from "../components/TeamSection";
 
 export const metadata: Metadata = {
-  title: 'About - Zahavsoft',
+  title: 'About us - Zahavsoft',
+  description: "ZAHAVSOFT is a premium digital design agency built to help forward-thinking businesses stand out, connect deeply, and grow with intention. We were founded on a simple belief: great design is never decoration — it's infrastructure. We are strategists, designers, and builders who work best at the intersection of beauty and function. We care about the details because details are what people actually feel when they use your product."
 };
 
 export default function About () {

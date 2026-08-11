@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Navbar from "@/app/components/Navbar"
 import Footer from "@/app/components/Footer"
 import HeaderSection from "@/app/components/HeaderSection"
@@ -15,6 +16,23 @@ export async function generateStaticParams() {
     return ServiceDetails.map((service) => ({
         slug: service.slug
     }))
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  
+  const service = ServiceDetails.find((item) => item.slug === slug);
+
+  if (!service) {
+    return {
+      title: "Service Not Found",
+    };
+  }
+
+  return {
+    title: `${service.header.title} - Zahavsoft`,
+    description: service.header.subtitle || "Be the first to know when we launch any new project.",
+  };
 }
 
 export default async function ServiceDetailPage ({params}: PageProps) {
